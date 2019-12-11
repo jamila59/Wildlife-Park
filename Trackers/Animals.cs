@@ -1,5 +1,6 @@
 using System;
 
+
 namespace Animal.Tracker {
 
   class Animal {
@@ -41,9 +42,11 @@ namespace Animal.Tracker {
       return animalProperties;
     }
 
-
+    public static string MakeAnimalSounds(string animal, string sounds)
+    {
+      return "An " + animal + " makes these sounds... " + sounds;
+    }
 
   }
-
 
 }
